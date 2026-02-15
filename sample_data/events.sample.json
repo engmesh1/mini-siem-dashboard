@@ -1,0 +1,46 @@
+[
+  {
+    "timestamp": "2026-02-14T18:23:41Z",
+    "src_ip": "185.12.44.9",
+    "dest_ip": "10.0.0.12",
+    "event_type": "auth_failed",
+    "severity": 6,
+    "message": "Failed login attempt for user 'admin' from 185.12.44.9",
+    "user": "admin",
+    "service": "ssh"
+  },
+  {
+    "timestamp": "2026-02-14T18:24:10Z",
+    "src_ip": "185.12.44.9",
+    "dest_ip": "10.0.0.12",
+    "event_type": "auth_failed",
+    "severity": 6,
+    "message": "Failed login attempt for user 'admin' from 185.12.44.9",
+    "user": "admin",
+    "service": "ssh"
+  },
+  {
+    "timestamp": "2026-02-14T18:25:05Z",
+    "src_ip": "45.77.3.201",
+    "dest_ip": "10.0.0.12",
+    "event_type": "port_scan",
+    "severity": 7,
+    "message": "Multiple ports probed on host 10.0.0.12",
+    "ports": [
+      22,
+      80,
+      443,
+      3389,
+      8080
+    ]
+  },
+  {
+    "timestamp": "2026-02-14T18:30:12Z",
+    "src_ip": "10.0.0.5",
+    "dest_ip": "8.8.8.8",
+    "event_type": "dns_query",
+    "severity": 2,
+    "message": "DNS query for example.com",
+    "domain": "example.com"
+  }
+]
